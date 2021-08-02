@@ -2,7 +2,7 @@
 
 Sets are collections of elements. The general notation uses curly braces {1, 2, 3, 4}
 
-<img src="images/N.JPG" height=30> = {1, 2, 3, 4, ...}
+<img src="images/N.jpg" height=30> = {1, 2, 3, 4, ...}
 
 <img src="images/set-notation.PNG">
 
