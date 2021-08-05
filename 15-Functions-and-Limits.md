@@ -35,11 +35,11 @@ The graph of a function are all pairs (points) (x, f(x))
 $$
 f(x)=1.5 \cdot x
 $$
-<img src="images/function-2.JPG" height=200>
+<img src="images/function-2.jpg" height=200>
 
 
 
-<img src="images/function-3.PNG" height=350>
+<img src="images/function-3.png" height=350>
 
 
 

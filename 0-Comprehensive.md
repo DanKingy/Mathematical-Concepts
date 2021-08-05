@@ -2,60 +2,60 @@
 
 # 1-Number System
 
-<img src="images\relations.PNG" height="40" />
+<img src="images\relations.PNG" height="40" /><img src="images\relations.png" height="40" />
 
-<img src="images\N.JPG" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
+<img src="images\N.jpg" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
 
-<img src="images\Z.JPG" height="25" /> **Integers**	| -2, -1, 0, 1, 2,...
+<img src="images\Z.jpg" height="25" /> **Integers**	| -2, -1, 0, 1, 2,...
 
-<img src="images\Q.JPG" height="25" /> **Rational Numbers**	| 4/8, -4/6, 2/3
+<img src="images\Q.jpg" height="25" /> **Rational Numbers**	| 4/8, -4/6, 2/3
 
-<img src="images\R.JPG" height="25" /> **Real Numbers** | sqrt(2), pi(3.14159), e(2.17182)
+<img src="images\R.jpg" height="25" /> **Real Numbers** | sqrt(2), pi(3.14159), e(2.17182)
 
-<img src="images\C.JPG" height="25" /> **Complex Numbers** | 6+4i
+<img src="images\C.jpg" height="25" /> **Complex Numbers** | 6+4i
 
 
 
-## Natural Numbers
+# Natural Numbers
 
-<img src="images\N.JPG" height="25" />= {1, 2, 3,...}
+<img src="images\N.jpg" height="25" />= {1, 2, 3,...}
 
 * Addition or multiplication of two natural numbers results in another natural number
 * Subtraction or division of two natural numbers does not always result in another natural number
 
-<img src="images\N.JPG" height="25" />can be generated with a successor relation. Any natural number can be obtained from 1 by applying the *successor relation* [S(n) = n+1]
+<img src="images\N.jpg" height="25" />can be generated with a successor relation. Any natural number can be obtained from 1 by applying the *successor relation* [S(n) = n+1]
 
 
 
-## Integers
+# Integers
 
-<img src="images\Z.JPG" height="25" /> = {-2, -1, 0, 1, 2...}
+<img src="images\Z.jpg" height="25" /> = {-2, -1, 0, 1, 2...}
 
 * Addition, multiplication and subtraction of two integers results in another integer
 * Division of two integers does not always result in another integer
 
-<img src="images\Z.JPG" height="25" /> can be generated with both successors and predecessors
+<img src="images\Z.jpg" height="25" /> can be generated with both successors and predecessors
 
 
 
-## Rational Numbers
+# Rational Numbers
 
-<img src="images\Q.JPG" height="25" /> = all numbers that can be written in the form a/b, where a and b are integers
+<img src="images\Q.jpg" height="25" /> = all numbers that can be written in the form a/b, where a and b are integers
 
 * Closed under division 
 * Has an ordering (less than or greater than relation) but no successor relation
 
 
 
-## Real Numbers
+# Real Numbers
 
-<img src="images/R.JPG" height="25"> can be thought of those numbers consisting of unending decimal places (512.5257623.....)
+<img src="images/R.jpg" height="25"> can be thought of those numbers consisting of unending decimal places (512.5257623.....)
 
 * Real numbers are sometimes called *irrational numbers*
 
 
 
-## Complex Numbers
+# Complex Numbers
 
 * Squares of real numbers are positive. There is no solution to x^2^ = -1.
 * Introduce *imaginary number i* with:
@@ -70,17 +70,15 @@ $$
 
 * Complex plane:
 
-<img src="images/Complex-plane.JPG">
+<img src="images/Complex-plane.jpg">
 
 * Remember we can substitute i^2^ to -1 and -i^2^ to 1
 
 
 
-# 2-Summation and Product
 
 
-
-## Summation
+# Summation
 
 <img src="images/summation.PNG">
 
@@ -95,7 +93,7 @@ for (int j = 1; j <= 3; j++){
 
 Empty sums are zero:
 
-<img src="images/summation-1.JPG" height="100">
+<img src="images/summation-1.jpg" height="100">
 
 Order of expansion does not matter:
 $$
@@ -108,17 +106,65 @@ $$
 
 
 
-## Product
+# Product
 
-<img src="images/product.JPG" height=100>
+<img src="images/product.jpg" height=100>
 
 Think about it as a for-loop with multiplication inside instead of summation
 
-<img src="images/product-1.PNG" height=100>
+<img src="images/product-1.png" height=100>
 
 Empty products are 1:
 
-<img src="images/product-2.JPG" height=100>
+<img src="images/product-2.jpg" height=100>
+
+
+
+# 2-Summation and Product
+
+
+
+## Summation
+
+<img src="images/summation.PNG">Summation
+
+<img src="images/summation.PNG">
+
+The above summation is equivalent to the below for-loop in Java:
+
+```java
+int a = 0;
+for (int j = 1; j <= 3; j++){
+    a = a + xj
+}
+```
+
+Empty sums are zero:
+
+<img src="images/summation-1.jpg" height="100">
+
+Order of expansion does not matter:
+$$
+Associativity \\a+(b+c)=(a+b)+c
+$$
+
+$$
+Commutativity \\a+b=b+a
+$$
+
+
+
+# Product
+
+<img src="images/product.jpg" height=100>
+
+Think about it as a for-loop with multiplication inside instead of summation
+
+<img src="images/product-1.png" height=100>
+
+Empty products are 1:
+
+<img src="images/product-2.jpg" height=100>
 
 
 
@@ -587,17 +633,17 @@ $$
 $$
 **Column vector:**
 
-<img src="images/column-vector.PNG" height=80>
+<img src="images/column-vector.png" height=80>
 
 **Row vector:**
 
-<img src="images/row-vector.PNG" height=40>
+<img src="images/row-vector.png" height=40>
 
 **Interpretation:**
 
 
 
-<img src="images/vector-1.PNG" height=250>
+<img src="images/vector-1.png" height=250>
 
 
 
@@ -685,7 +731,7 @@ $$
 $$
 
 $$
-  \left(
+\left(
     \begin{array}{}
       x_1\\
       x_2\\
@@ -771,6 +817,8 @@ $$
 $$
 (A\vec x)_i =  \sum^3_{j=1}a_{ij}x_j=a_{i1}x_1+a_{i2}x_2+a_{i3}x_3
 $$
+
+
 
 ## Matrix Multiplication
 
@@ -867,11 +915,11 @@ The graph of a function are all pairs (points) (x, f(x))
 $$
 f(x)=1.5 \cdot x
 $$
-<img src="images/function-2.JPG" height=200>
+<img src="images/function-2.jpg" height=200>
 
 
 
-<img src="images/function-3.PNG" height=350>
+<img src="images/function-3.png" height=350>
 
 
 
@@ -941,13 +989,13 @@ For linear functions:
 $$
 f(x) = a \cdot x
 $$
-<img src="images/derivative-1.JPG" height=170>
+<img src="images/derivative-1.jpg" height=170>
 
 The slope/derivative is the ratio of the change of f(x) and the change of x
 $$
 \frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x}
 $$
-<img src="images/derivative-2.PNG" height=300>
+<img src="images/derivative-2.png" height=300>
 
 
 
@@ -967,7 +1015,7 @@ Linear functions are easy because the slope is the same everywhere. We can make 
 
 The more and more we zoom in, the more linear a curved line looks:
 
-| <img src="images/derivative-3.PNG" height=200> | <img src="images/derivative-4.PNG" height=200> |
+| <img src="images/derivative-3.png" height=200> | <img src="images/derivative-4.png" height=200> |
 | :--------------------------------------------: | :--------------------------------------------: |
 
 
@@ -1170,70 +1218,234 @@ $$
 
 # 18-Integration
 
-Integration is to do with the area of a graph
-
-<img src="images/integration-1.PNG" height=250>
-
-* Car travelling at 70mph
-* A = v\*t = 70\*2 = 140miles
-
-However, what is the area for the section underneath a curved line?
-
-<img src="images/integration-2.PNG" height=250>
-
-
-
-## Lower Reimann Sum
-
-<img src="images/integration-3.PNG" height=250>
+For linear functions:
 $$
-A_\_ = \sum^4_{i=0}f_\_(i \cdot \Delta x) \cdot \Delta x \\
-f_\_(x) = min\{f(z):z \in [x,x + \Delta x]\}
+f(x) = a \cdot x
 $$
+<img src="images/derivative-1.jpg" height=170>
 
-
-## Upper Riemann Sum
-
-<img src="images/integration-4.PNG" height=250>
+The slope/derivative is the ratio of the change of f(x) and the change of x
 $$
-A_+ = \sum^4_{i=0}f_+ (i \cdot \Delta x) \cdot \Delta x \\
-f_+(x) = max\{f(z): z \in [x,x + \Delta x]\}
+\frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x}
+$$
+<img src="images/derivative-2.png" height=300>
+
+
+
+## Calculating the Linear Example
+
+$$
+f(x) = 1.5 \cdot x \\
+\frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x} \\
+=\frac{1.5 \cdot (x+\Delta x) - 1.5 \cdot x}{\Delta x}
 $$
 
-
-## A_ <= A <= A+
-
-<img src="images/integration-5.PNG" height=450>
+Linear functions are easy because the slope is the same everywhere. We can make our delta x any size we want and get the same value
 
 
 
-## Reimann Integral
+## Generalisation for any Smooth Function
 
-For many functions:
+The more and more we zoom in, the more linear a curved line looks:
+
+| <img src="images/derivative-3.png" height=200> | <img src="images/derivative-4.png" height=200> |
+| :--------------------------------------------: | :--------------------------------------------: |
+
+
+
+## Derivative of a Smooth Function
+
+The derivative of a smooth function is the value the ratio:
 $$
-\lim_{\Delta x \rightarrow 0} A_\_ = \lim_{\Delta x \rightarrow 0} A_+
+\frac{f(x +\Delta x)-f(x)}{\Delta x}
 $$
-The upper and lower Reimann sum become the same for small steps, such functions are called Riemann Integrable, hence where we get Riemann Integral from.
+converges to for smaller and smaller delta x, mathematicians write:
+$$
+f'(x)=\lim_{\Delta x \rightarrow 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}
+$$
+
+## Alternative Notation
+
+$$
+If\ f:\R \rightarrow R\ is\ a\ smooth\ function \\
+x \mapsto f(x) \\
+Then\ the\ derivative\ of\ f\ is\ denoted\ as: \\
+f'(x) = \frac{df(x)}{dx} = \frac{df}{dx} = \frac{d}{dx}f
+$$
+
+The derivative f'(x) of a function is again a function because we can calculate it for any point x
 
 
 
-## Notation
+## Example
 
-<img src="images/integration-6.PNG" height=250>
-
-Integration is the opposite of differentiation!
-
-
-
-## Rules for Differentiation
-
-<img src="images/integration-7.PNG" height=300>
+$$
+Derivative\ of\ f(x)=x^2 \\
+\frac{d}{dx}x^2 = \lim_{\Delta x \rightarrow 0} \frac{(x+\Delta x)^2 - x^2}{\Delta x} \\
+= \lim_{\Delta x \rightarrow 0} \frac{x^2+2x\Delta x+(\Delta x)^2 - x^2}{\Delta x} \\
+= \lim_{\Delta x \rightarrow 0} 2x+ \Delta x = 2x
+$$
 
 
 
-## Special Functions
+## Applications
 
-<img src="images/integration-8.PNG" height=350>
+* If f(x) is your distance from home as a function of the time x. Then f'(x) is the speed you are driving towards (or away) from home
+* If you take the derivative of the derivative f''(x), then that would be your acceleration
+
+
+
+* If f(x) describes the height of a hill, then f'(x) is the steepness
+
+
+
+* f(x) is your total money as a function of time, f'(x) is your instantaneous spending rate
+
+
+
+## Derivative of a Polynomial
+
+$$
+f(x)=x^2 \\
+f'(x)=2x
+$$
+
+Generally:
+$$
+for\ f(x)=x^n \\
+the\ derivative\ is\ f'(x)=nx^{n-1}
+$$
+
+
+## Derivatives: Basic Rules
+
+<img src="images/derivative-5.PNG">
+
+
+
+## Derivatives: Special Functions
+
+<img src="images/derivative-6.PNG">
+
+
+
+## Product Rule
+
+Function:
+$$
+h(x)=f(x) \cdot g(x)
+$$
+Derivative:
+$$
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+$$
+
+
+## Example
+
+$$
+f(x) = sin(x) \cdot cos(x) \\
+f'(x) = (cos(x)) \cdot cos(x)) + (sin(x) \cdot -sin(x)) \\
+f'(x) = cos(x)^2 - sin(x)^2
+$$
+
+
+
+## Function Composition
+
+$$
+g: A \rightarrow B \\
+x \mapsto g(x) \\
+f: B \rightarrow C \\
+x \mapsto f(x) \\
+then\ f \circ g : A \rightarrow C \\
+x \mapsto f(g(x))
+$$
+
+
+
+## Chain Rule
+
+Function:
+$$
+h(x) = f(g(x)) \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ h=f \circ g
+$$
+Derivative:
+$$
+h'(x) = f'(g(x)) \cdot g'(x)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ h' = f'\circ g\cdot g'
+$$
+
+
+## Example
+
+$$
+f(x) = sin(x^3) \\
+f'(x) = cos(x^3)3x^2
+$$
+
+
+$$
+f(x)=log(2x^2) \\
+f'(x)= \frac{1}{2x^2}4x
+$$
+
+
+## Derivatives in more than 1 Dimension
+
+$$
+f(x_1,x_2) = (x_1)^2+(x_2)^2 \\
+Partial\ deritivate\ \frac{\delta f}{\delta x_1}\ is\ taking\ the\ derivative\ and\ treat\ x_1\ as\ constant
+$$
+
+$$
+\frac{\delta f}{\delta x_1} = \frac{\delta}{\delta x_1}((x_1)^2 + (x_2)^2) \\
+= \frac{\delta}{\delta x_1}(x_1)^2 + \frac{\delta}{\delta x_1}(x_2)^2 \\
+= 2x_1 + 0 = 2x_1 \\
+\frac{\delta f}{\delta x_2} = 2x_2
+$$
+
+
+
+## Interpretation
+
+The partial derivative (delta f / delta x~1~) shows how much f changes when x~1~ is changed.
+
+The gradient gives the direction of the steepest slope:
+$$
+grad\ f = \left(
+    \begin{array}{}
+      \frac{\delta f}{\delta x_1} \\
+      \frac{\delta f}{\delta x_2}
+    \end{array}
+  \right)
+$$
+for example:
+$$
+f(x_1,x_2) = (x_1)^2 + (x_2)^2 \\
+grad\ f = \left(
+    \begin{array}{}
+      \frac{\delta f}{\delta x_1} \\
+      \frac{\delta f}{\delta x_2}
+    \end{array}
+  \right)
+  =
+  \left(
+    \begin{array}{}
+      2x_1 \\
+      2x_2
+    \end{array}
+  \right)
+$$
+
+
+## Applications
+
+* Gradients are important for finding minima (so called gradient descent):
+  * If you always go against the gradient, you go the steepest way down
+* The gradient can tell you when you are in a (local) extremum (minimum or maximum):
+  * In this case the gradient is 0
+
+
 
 
 
@@ -1353,7 +1565,7 @@ $$
 
 ## Tree Graph
 
-<img src="images/probability-5.PNG" height=370>
+<img src="images/probability-5.png" height=370>
 
 * Each branch is one outcome
 * At each branch we note the probability of that outcome (1/6)
@@ -1424,7 +1636,7 @@ $$
 $$
 is defined as
 
-<img src="images/probability-9.JPG" height=70>
+<img src="images/probability-9.jpg" height=70>
 
 
 
@@ -1436,7 +1648,7 @@ $$
 $$
 is defined as
 
-<img src="images/probability-10.JPG" height=70>
+<img src="images/probability-10.jpg" height=70>
 
 * This is the same name as the standard deviation in probability theory
 

@@ -4,13 +4,13 @@ For linear functions:
 $$
 f(x) = a \cdot x
 $$
-<img src="images/derivative-1.JPG" height=170>
+<img src="images/derivative-1.jpg" height=170>
 
 The slope/derivative is the ratio of the change of f(x) and the change of x
 $$
 \frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x}
 $$
-<img src="images/derivative-2.PNG" height=300>
+<img src="images/derivative-2.png" height=300>
 
 
 
@@ -30,7 +30,7 @@ Linear functions are easy because the slope is the same everywhere. We can make 
 
 The more and more we zoom in, the more linear a curved line looks:
 
-| <img src="images/derivative-3.PNG" height=200> | <img src="images/derivative-4.PNG" height=200> |
+| <img src="images/derivative-3.png" height=200> | <img src="images/derivative-4.png" height=200> |
 | :--------------------------------------------: | :--------------------------------------------: |
 
 

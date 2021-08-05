@@ -112,7 +112,7 @@ $$
 
 ## Tree Graph
 
-<img src="images/probability-5.PNG" height=370>
+<img src="images/probability-5.png" height=370>
 
 * Each branch is one outcome
 * At each branch we note the probability of that outcome (1/6)
@@ -183,7 +183,7 @@ $$
 $$
 is defined as
 
-<img src="images/probability-9.JPG" height=70>
+<img src="images/probability-9.jpg" height=70>
 
 
 
@@ -195,7 +195,7 @@ $$
 $$
 is defined as
 
-<img src="images/probability-10.JPG" height=70>
+<img src="images/probability-10.jpg" height=70>
 
 * This is the same name as the standard deviation in probability theory
 

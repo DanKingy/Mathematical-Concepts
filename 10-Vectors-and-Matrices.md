@@ -23,17 +23,17 @@ $$
 $$
 **Column vector:**
 
-<img src="images/column-vector.PNG" height=80>
+<img src="images/column-vector.png" height=80>
 
 **Row vector:**
 
-<img src="images/row-vector.PNG" height=40>
+<img src="images/row-vector.png" height=40>
 
 **Interpretation:**
 
 
 
-<img src="images/vector-1.PNG" height=250>
+<img src="images/vector-1.png" height=250>
 
 
 

@@ -13,7 +13,7 @@ for (int j = 1; j <= 3; j++){
 
 Empty sums are zero:
 
-<img src="images/summation-1.JPG" height="100">
+<img src="images/summation-1.jpg" height="100">
 
 Order of expansion does not matter:
 $$
@@ -28,13 +28,13 @@ $$
 
 # Product
 
-<img src="images/product.JPG" height=100>
+<img src="images/product.jpg" height=100>
 
 Think about it as a for-loop with multiplication inside instead of summation
 
-<img src="images/product-1.PNG" height=100>
+<img src="images/product-1.png" height=100>
 
 Empty products are 1:
 
-<img src="images/product-2.JPG" height=100>
+<img src="images/product-2.jpg" height=100>
 
