@@ -828,3 +828,630 @@ Distance:
 $$
 d(\vec x, \vec y) = ||\vec x - \vec y||
 $$
+
+
+# 15-Functions and Limits
+
+A function is a like a vending machine:
+
+<img src="images/function-1.PNG" height=250>
+
+## Notation
+
+<img src="images/function-notation.PNG" height=350>
+
+
+$$
+f:\R \rightarrow \R_+ \\
+x \mapsto x^2 \\
+$$
+Alternative notation:
+$$
+f(x)=x^2
+$$
+
+
+## Example 1
+
+$$
+1 \mapsto 1 \ \ \ \ f(1) = 1 \\
+\sqrt2 \mapsto 2 \ \ \ \ f(\sqrt2) = 2 \\
+2 \mapsto 4 \ \ \ \ f(2) = 4
+$$
+
+
+
+## Graph of a Function
+
+The graph of a function are all pairs (points) (x, f(x))
+$$
+f(x)=1.5 \cdot x
+$$
+<img src="images/function-2.JPG" height=200>
+
+
+
+<img src="images/function-3.PNG" height=350>
+
+
+
+## Limits
+
+Problem, what happens if we make n ever and ever larger?:
+$$
+a_n=\frac{1}{n}
+$$
+Mathematicians write:
+$$
+\lim_{n\rightarrow \infin} \frac{1}{n}=0
+$$
+Two typical cases:
+
+* The number diverges (to infinity)
+* The number converges (here to 0)
+
+
+
+## Formal Definition
+
+<img src="images/function-4.PNG">
+
+
+
+## Practical Rules for Limits
+
+$$
+\lim_{n\rightarrow \infin} (a_n+b_n) = \lim_{n\rightarrow \infin} a_n + \lim_{n\rightarrow \infin} b_n 
+\\
+\lim_{n\rightarrow \infin} (a_n \cdot b_n) = \lim_{n\rightarrow \infin} a_n \cdot \lim_{n\rightarrow \infin} b_n 
+\\
+\lim_{n\rightarrow \infin} (k \cdot a_n) = k \cdot \lim_{n \rightarrow \infin} a_n
+$$
+
+
+
+## Thumb Rules for Calculating Limits
+
+$$
+If\ \lim_{x \rightarrow \infin} x = \infin \\
+then\ \lim_{x \rightarrow\ \infin} \frac{1}{x} = \frac{1}{\infin}=0
+$$
+
+$$
+k \cdot \infin = {\infin\ if\ k \gt 0 \brace -\infin\ if\ k \lt 0}
+$$
+
+$$
+\frac{k}{0} = {\infin\ if\ k \gt 0 \brace -\infin\ if\ k \lt 0}
+$$
+
+
+
+## Not Everything Converges or Diverges
+
+For example:
+$$
+\lim_{n \rightarrow \infin} sin(n)
+$$
+
+
+# 16-Derivatives
+
+For linear functions:
+$$
+f(x) = a \cdot x
+$$
+<img src="images/derivative-1.JPG" height=170>
+
+The slope/derivative is the ratio of the change of f(x) and the change of x
+$$
+\frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x}
+$$
+<img src="images/derivative-2.PNG" height=300>
+
+
+
+## Calculating the Linear Example
+
+$$
+f(x) = 1.5 \cdot x \\
+\frac{\Delta y}{\Delta x} = \frac{f(x\ +\Delta x)-f(x)}{\Delta x} \\
+=\frac{1.5 \cdot (x+\Delta x) - 1.5 \cdot x}{\Delta x}
+$$
+
+Linear functions are easy because the slope is the same everywhere. We can make our delta x any size we want and get the same value
+
+
+
+## Generalisation for any Smooth Function
+
+The more and more we zoom in, the more linear a curved line looks:
+
+| <img src="images/derivative-3.PNG" height=200> | <img src="images/derivative-4.PNG" height=200> |
+| :--------------------------------------------: | :--------------------------------------------: |
+
+
+
+## Derivative of a Smooth Function
+
+The derivative of a smooth function is the value the ratio:
+$$
+\frac{f(x +\Delta x)-f(x)}{\Delta x}
+$$
+converges to for smaller and smaller delta x, mathematicians write:
+$$
+f'(x)=\lim_{\Delta x \rightarrow 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}
+$$
+
+## Alternative Notation
+
+$$
+If\ f:\R \rightarrow R\ is\ a\ smooth\ function \\
+x \mapsto f(x) \\
+Then\ the\ derivative\ of\ f\ is\ denoted\ as: \\
+f'(x) = \frac{df(x)}{dx} = \frac{df}{dx} = \frac{d}{dx}f
+$$
+
+The derivative f'(x) of a function is again a function because we can calculate it for any point x
+
+
+
+## Example
+
+$$
+Derivative\ of\ f(x)=x^2 \\
+\frac{d}{dx}x^2 = \lim_{\Delta x \rightarrow 0} \frac{(x+\Delta x)^2 - x^2}{\Delta x} \\
+= \lim_{\Delta x \rightarrow 0} \frac{x^2+2x\Delta x+(\Delta x)^2 - x^2}{\Delta x} \\
+= \lim_{\Delta x \rightarrow 0} 2x+ \Delta x = 2x
+$$
+
+
+
+## Applications
+
+* If f(x) is your distance from home as a function of the time x. Then f'(x) is the speed you are driving towards (or away) from home
+* If you take the derivative of the derivative f''(x), then that would be your acceleration
+
+
+
+* If f(x) describes the height of a hill, then f'(x) is the steepness
+
+
+
+* f(x) is your total money as a function of time, f'(x) is your instantaneous spending rate
+
+
+
+## Derivative of a Polynomial
+
+$$
+f(x)=x^2 \\
+f'(x)=2x
+$$
+
+Generally:
+$$
+for\ f(x)=x^n \\
+the\ derivative\ is\ f'(x)=nx^{n-1}
+$$
+
+
+## Derivatives: Basic Rules
+
+<img src="images/derivative-5.PNG">
+
+
+
+## Derivatives: Special Functions
+
+<img src="images/derivative-6.PNG">
+
+
+
+## Product Rule
+
+Function:
+$$
+h(x)=f(x) \cdot g(x)
+$$
+Derivative:
+$$
+h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+$$
+
+
+## Example
+
+$$
+f(x) = sin(x) \cdot cos(x) \\
+f'(x) = (cos(x)) \cdot cos(x)) + (sin(x) \cdot -sin(x)) \\
+f'(x) = cos(x)^2 - sin(x)^2
+$$
+
+
+
+## Function Composition
+
+$$
+g: A \rightarrow B \\
+x \mapsto g(x) \\
+f: B \rightarrow C \\
+x \mapsto f(x) \\
+then\ f \circ g : A \rightarrow C \\
+x \mapsto f(g(x))
+$$
+
+
+
+## Chain Rule
+
+Function:
+$$
+h(x) = f(g(x)) \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ h=f \circ g
+$$
+Derivative:
+$$
+h'(x) = f'(g(x)) \cdot g'(x)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ h' = f'\circ g\cdot g'
+$$
+
+
+## Example
+
+$$
+f(x) = sin(x^3) \\
+f'(x) = cos(x^3)3x^2
+$$
+
+
+$$
+f(x)=log(2x^2) \\
+f'(x)= \frac{1}{2x^2}4x
+$$
+
+
+## Derivatives in more than 1 Dimension
+
+$$
+f(x_1,x_2) = (x_1)^2+(x_2)^2 \\
+Partial\ deritivate\ \frac{\delta f}{\delta x_1}\ is\ taking\ the\ derivative\ and\ treat\ x_1\ as\ constant
+$$
+
+$$
+\frac{\delta f}{\delta x_1} = \frac{\delta}{\delta x_1}((x_1)^2 + (x_2)^2) \\
+= \frac{\delta}{\delta x_1}(x_1)^2 + \frac{\delta}{\delta x_1}(x_2)^2 \\
+= 2x_1 + 0 = 2x_1 \\
+\frac{\delta f}{\delta x_2} = 2x_2
+$$
+
+
+
+## Interpretation
+
+The partial derivative (delta f / delta x~1~) shows how much f changes when x~1~ is changed.
+
+The gradient gives the direction of the steepest slope:
+$$
+grad\ f = \left(
+    \begin{array}{}
+      \frac{\delta f}{\delta x_1} \\
+      \frac{\delta f}{\delta x_2}
+    \end{array}
+  \right)
+$$
+for example:
+$$
+f(x_1,x_2) = (x_1)^2 + (x_2)^2 \\
+grad\ f = \left(
+    \begin{array}{}
+      \frac{\delta f}{\delta x_1} \\
+      \frac{\delta f}{\delta x_2}
+    \end{array}
+  \right)
+  =
+  \left(
+    \begin{array}{}
+      2x_1 \\
+      2x_2
+    \end{array}
+  \right)
+$$
+
+
+## Applications
+
+* Gradients are important for finding minima (so called gradient descent):
+  * If you always go against the gradient, you go the steepest way down
+* The gradient can tell you when you are in a (local) extremum (minimum or maximum):
+  * In this case the gradient is 0
+
+
+
+
+
+# 18-Integration
+
+Integration is to do with the area of a graph
+
+<img src="images/integration-1.PNG" height=250>
+
+* Car travelling at 70mph
+* A = v\*t = 70\*2 = 140miles
+
+However, what is the area for the section underneath a curved line?
+
+<img src="images/integration-2.PNG" height=250>
+
+
+
+## Lower Reimann Sum
+
+<img src="images/integration-3.PNG" height=250>
+$$
+A_\_ = \sum^4_{i=0}f_\_(i \cdot \Delta x) \cdot \Delta x \\
+f_\_(x) = min\{f(z):z \in [x,x + \Delta x]\}
+$$
+
+
+## Upper Riemann Sum
+
+<img src="images/integration-4.PNG" height=250>
+$$
+A_+ = \sum^4_{i=0}f_+ (i \cdot \Delta x) \cdot \Delta x \\
+f_+(x) = max\{f(z): z \in [x,x + \Delta x]\}
+$$
+
+
+## A_ <= A <= A+
+
+<img src="images/integration-5.PNG" height=450>
+
+
+
+## Reimann Integral
+
+For many functions:
+$$
+\lim_{\Delta x \rightarrow 0} A_\_ = \lim_{\Delta x \rightarrow 0} A_+
+$$
+The upper and lower Reimann sum become the same for small steps, such functions are called Riemann Integrable, hence where we get Riemann Integral from.
+
+
+
+## Notation
+
+<img src="images/integration-6.PNG" height=250>
+
+Integration is the opposite of differentiation!
+
+
+
+## Rules for Differentiation
+
+<img src="images/integration-7.PNG" height=300>
+
+
+
+## Special Functions
+
+<img src="images/integration-8.PNG" height=350>
+
+
+
+
+
+# 19-Probability Theory
+
+We are only going to study discrete probability spaces here
+
+
+
+## Power Set
+
+For a set ***S***, the power set ***P(S)*** is the set of all subsets of ***S*** including ***S*** and the empty set
+
+<img src="images/probability-1.PNG">
+
+
+
+## Probability Measure
+
+Definitions:
+$$
+\Omega : Set\ of\ elementary\ events \\
+\omega \in \Omega : Elementary\ event \\
+A\ probability\ measure\ is\ a\ function \\
+p:P(\Omega)\rightarrow[0,1] \\
+\omega \mapsto P(\omega)
+$$
+Typical example. Outcome of throwing a die:
+$$
+\Omega = \{1,2,3,4,5,6\} \\
+P(\{i\}) = \frac{1}{6} \\
+P(\{i, j\}) = \frac{2}{6} = \frac{1}{3} \\
+P(\Omega) = 1
+$$
+
+
+## Probability
+
+$$
+We\ call\ the\ subsets\ of\ \Omega\ events\ and\ for\ an\ event\ A\ \subset \Omega\ we\ call\ P(A)\ the\ probability\ of\ the\ event\ A
+$$
+
+
+
+## Probability Space
+
+$$
+For\ (\Omega, P)\ to\ be\ a\ proper\ probability\ space,\ the\ following\ conditions\ must\ hold: \\
+P(\Omega) = 1 \\
+P(\empty) = 0 \\
+if\ A \cap B = \empty\ (A\ and\ B\ are\ disjoint\ or\ exclusive\ events) \\
+P(A \cup B) = P(A) + P(B) \\
+(Additivity)
+$$
+
+
+
+## Example
+
+$$
+\Omega = \{1,2,3,4,5,6\} \\
+P(\{i\}) = \frac{1}{6}\ for\ i=1,\dots,6 \\
+Event\ A = \{Number\ is\ even\} \\
+P(A) = P(\{2,4,6\}) \ \ \ \ \ \ \ \ \ \ \ \ (\{2,4,6\} = \{2\} \cup \{4\} \cup \{6\}) \\
+= P(\{2\}) + P(\{4\}) + P(\{6\}) \\
+= \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{1}{3} + \frac{1}{3} = \frac{1}{2}
+$$
+
+
+
+## Probability of the Complement
+
+$$
+Let\ A \subset \Omega\ be\ an\ event \\
+A^C = \Omega \backslash A\ or,\ equivalently,\ A \cup A^C = \Omega\ and\ A \cap A^C = \empty \\
+Therefore, \\
+P(A \cup A^C) = P(A) + P(A^C) = P(\Omega) = 1 \\
+P(A^C) = 1 - P(A)
+$$
+
+
+
+## Example
+
+$$
+P(\{even\}) = 1-P(\{odd\})
+$$
+
+$$
+P(\{1,2,3,4,5\}) = 1-P(\{6\})
+$$
+
+$$
+P(\{at\ leaast\ one\ 1\}) = 1 - P(\{no\ 1\}) \\
+= 1 - \prod^{10}_{i=1}P(\{die\ i\ not\ 1\}) = 1 - (1 - P(\{1\}))^{10}
+$$
+
+
+
+## Independence
+
+Two events ***A*** and ***B*** are independent if, and only if:
+$$
+P(A \cap B) = P(A) \cdot P(B)
+$$
+
+
+## Example (two dice)
+
+<img src="images/probability-2.PNG" height=250>
+
+<img src="images/probability-3.PNG" height=300>
+
+<img src="images/probability-4.PNG" height=300>
+
+## Tree Graph
+
+<img src="images/probability-5.PNG" height=370>
+
+* Each branch is one outcome
+* At each branch we note the probability of that outcome (1/6)
+* The total probability of the outcomes is the product of the probabilities along branches (1/36)
+* For readability, we should only draw the branches we are interested in
+
+
+
+## Conditional Probabilities
+
+<img src="images/probability-6.PNG" height=150>
+
+It is called a conditional probability.
+
+For independent events:
+
+<img src="images/probability-7.PNG" height=80>
+
+
+
+## Example: One die
+
+$$
+\Omega = \{1,2,3,4,5,6\} \\
+A = \{i\ even\} \ \ \ \ \ P(A)=\frac{1}{2} \\
+B = \{i \geq 2\} \ \ \ \ \ P(B)=\frac{5}{6} \\
+P(A \cap B) = P(\{2,4,6\}) = \frac{1}{2} \\
+P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{1}{2}}{\frac{5}{6}} = \frac{1}{2} \cdot \frac{6}{5} = \frac{3}{5}
+$$
+
+
+
+## Bayes Rule
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+
+
+## Example
+
+Q. You pick a gold coin from one of two colour bags. What is the probability you picked from the red bag given this result?
+
+<img src="images/probability-8.PNG">
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} = \frac{\frac{2}{5} \cdot \frac{1}{2}}{\frac{3}{10}} = \frac{2}{3} \gt P(A) \\
+$$
+Now, what is the probability of drawing a gold coin after selecting the red bag:
+$$
+A:Pick\ the\ red\ bag\ \ \ \ \ P(A) = \frac{1}{2} \\
+B: Draw\ a\ gold\ coin\ \ \ \ \ P(B) = \frac{3}{10} \\
+(B|A): Draw\ a\ gold\ coin\ after\ selecting\ the\ red\ bag\ \ \ \ \ P(B|A) = \frac{2}{5}
+$$
+
+
+## Statistics
+
+In statistics we do not know the underlying probability space. We have a number of samples rather than information on the system they originate from.
+
+
+
+## Mean
+
+The mean of a set of observations (the average)
+$$
+\{x_i\}, i=1, \dots, \N \\
+$$
+is defined as
+
+<img src="images/probability-9.JPG" height=70>
+
+
+
+## Standard Deviation
+
+The standard deviation of a set of observations
+$$
+\{x_i\}, i=1, \dots, \N \\
+$$
+is defined as
+
+<img src="images/probability-10.JPG" height=70>
+
+* This is the same name as the standard deviation in probability theory
+
+
+
+Why the N-1 term?
+
+* Most people put 1/(N-1) to achieve what is called an unbiased estimator
+
+
+
+## Median
+
+The median of a set of observations
+$$
+\{x_i\}, i=1, \dots, \N \\
+$$
+is the value x~j~ such that half of the x~i~ are larger and half of them are smaller than x~j~ (if the sample set has an even number of samples we take the middle (average) of the 'middle samples')

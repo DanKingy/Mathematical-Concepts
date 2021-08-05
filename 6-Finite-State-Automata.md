@@ -94,3 +94,13 @@ $$
 * Non-deterministic: there is a choice in computation
 * Non-deterministic FSA are equivalent to deterministic FSA:
   * For every FSA there is an equivalent deterministic FSA
+
+
+
+## Summary
+
+* FSA recognize the class of regular languages
+* FSA are equivalent to regular expressions
+* But FSA have limited power (memory)
+  * FSA makes decisions about the entire input, but it cannot look back at any input that it has already consumed
+
