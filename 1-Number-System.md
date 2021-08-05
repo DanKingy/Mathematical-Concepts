@@ -1,6 +1,6 @@
 # Number System
 
-<img src="images\relations.PNG" height="40" />
+<img src="images\relations.png" height="40" />
 
 <img src="images\N.JPG" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
 
@@ -16,29 +16,29 @@
 
 # Natural Numbers
 
-<img src="images\N.JPG" height="25" />= {1, 2, 3,...}
+<img src="images\N.jpg" height="25" />= {1, 2, 3,...}
 
 * Addition or multiplication of two natural numbers results in another natural number
 * Subtraction or division of two natural numbers does not always result in another natural number
 
-<img src="images\N.JPG" height="25" />can be generated with a successor relation. Any natural number can be obtained from 1 by applying the *successor relation* [S(n) = n+1]
+<img src="images\N.jpg" height="25" />can be generated with a successor relation. Any natural number can be obtained from 1 by applying the *successor relation* [S(n) = n+1]
 
 
 
 # Integers
 
-<img src="images\Z.JPG" height="25" /> = {-2, -1, 0, 1, 2...}
+<img src="images\Z.jpg" height="25" /> = {-2, -1, 0, 1, 2...}
 
 * Addition, multiplication and subtraction of two integers results in another integer
 * Division of two integers does not always result in another integer
 
-<img src="images\Z.JPG" height="25" /> can be generated with both successors and predecessors
+<img src="images\Z.jpg" height="25" /> can be generated with both successors and predecessors
 
 
 
 # Rational Numbers
 
-<img src="images\Q.JPG" height="25" /> = all numbers that can be written in the form a/b, where a and b are integers
+<img src="images\Q.jpg" height="25" /> = all numbers that can be written in the form a/b, where a and b are integers
 
 * Closed under division 
 * Has an ordering (less than or greater than relation) but no successor relation
@@ -47,7 +47,7 @@
 
 # Real Numbers
 
-<img src="images/R.JPG" height="25"> can be thought of those numbers consisting of unending decimal places (512.5257623.....)
+<img src="images/R.jpg" height="25"> can be thought of those numbers consisting of unending decimal places (512.5257623.....)
 
 * Real numbers are sometimes called *irrational numbers*
 
@@ -68,7 +68,7 @@ $$
 
 * Complex plane:
 
-<img src="images/Complex-plane.JPG">
+<img src="images/Complex-plane.jpg">
 
 * Remember we can substitute i^2^ to -1 and -i^2^ to 1
 
@@ -91,7 +91,7 @@ for (int j = 1; j <= 3; j++){
 
 Empty sums are zero:
 
-<img src="images/summation-1.JPG" height="100">
+<img src="images/summation-1.jpg" height="100">
 
 Order of expansion does not matter:
 $$
@@ -106,13 +106,13 @@ $$
 
 # Product
 
-<img src="images/product.JPG" height=100>
+<img src="images/product.jpg" height=100>
 
 Think about it as a for-loop with multiplication inside instead of summation
 
-<img src="images/product-1.PNG" height=100>
+<img src="images/product-1.png" height=100>
 
 Empty products are 1:
 
-<img src="images/product-2.JPG" height=100>
+<img src="images/product-2.jpg" height=100>
 
