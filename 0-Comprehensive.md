@@ -2,7 +2,7 @@
 
 # 1-Number System
 
-<img src="images\relations.PNG" height="40" /><img src="images\relations.png" height="40" />
+<img src="images\relations.PNG" height="40"/>
 
 <img src="images\N.jpg" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
 
