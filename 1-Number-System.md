@@ -2,15 +2,15 @@
 
 <img src="images\relations.png" height="40" />
 
-<img src="images\N.JPG" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
+<img src="images\N.jpg" height="25" /> **Natural Numbers**	| 0, 1, 2, 3,...
 
-<img src="images\Z.JPG" height="25" /> **Integers**	| -2, -1, 0, 1, 2,...
+<img src="images\Z.jpg" height="25" /> **Integers**	| -2, -1, 0, 1, 2,...
 
-<img src="images\Q.JPG" height="25" /> **Rational Numbers**	| 4/8, -4/6, 2/3
+<img src="images\Q.jpg" height="25" /> **Rational Numbers**	| 4/8, -4/6, 2/3
 
-<img src="images\R.JPG" height="25" /> **Real Numbers** | sqrt(2), pi(3.14159), e(2.17182)
+<img src="images\R.jpg" height="25" /> **Real Numbers** | sqrt(2), pi(3.14159), e(2.17182)
 
-<img src="images\C.JPG" height="25" /> **Complex Numbers** | 6+4i
+<img src="images\C.jpg" height="25" /> **Complex Numbers** | 6+4i
 
 
 
